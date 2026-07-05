@@ -24,11 +24,12 @@ This project presents a Streamlit web application for automated malaria detectio
 - Scikit-learn
 - Matplotlib
 
-## Performamce
-- Training Accuracy: 97.33%
-- Validation Accuracy: 95.12%
-- Training Loss: 0.1099
-- Validation Loss: 0.1551
+## Performance
+- Test Accuracy: 93.28%
+- Training Accuracy (final epoch): 97.33%
+- Validation Accuracy (final epoch): 100.00%
+- Training Loss (final epoch): 0.1072
+- Validation Loss (final epoch): 0.0131
 - Optimizer: Adam
 - Loss Function: Binary Cross-Entropy
 - Epochs: 30
@@ -37,7 +38,7 @@ This project presents a Streamlit web application for automated malaria detectio
 
 - `app.py` – Streamlit application
 - `malaria_cnn_karl.h5` – Trained CNN model
-- `malaria_metadata.pkl` – Stores class names, image suze and prediction threshold
+- `malaria_metadata.pkl` – Stores class names, image size and prediction threshold
 - `requirements.txt` – Project dependencies
 
 ## How to Run Locally
